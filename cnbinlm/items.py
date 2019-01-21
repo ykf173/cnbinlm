@@ -7,7 +7,6 @@
 
 import scrapy
 
-
 class CnbinlmItem(scrapy.Item):
     pmc = scrapy.Field()
     article = scrapy.Field()
